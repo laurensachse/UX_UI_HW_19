@@ -25,8 +25,9 @@ div {
 }
 .logo {
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
     margin: 10px;
+    width: fixed;
 
 }
 h1 {
@@ -76,7 +77,8 @@ a {
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 10px;
+    padding: 18px;
+    
    
 }
 
@@ -476,3 +478,17 @@ header {
     padding-top: 10px;
     
   }
+
+  .topnav a {
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    
+    
+  }
+
