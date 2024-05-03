@@ -46,11 +46,12 @@ $(".resume").mouseout(function(){
 $(".junklogo").mouseover(function(){
   $(".junklogo").css("height", "100px")
   $(".junklogo").css("transition", "0.3s")
+  
 });
 $(".junklogo").mouseout(function(){
   $(".junklogo").css("height", "75px")
   $(".junklogo").css("transition", "0.3s")
 
 });
-  
+
 });

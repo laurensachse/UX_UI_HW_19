@@ -25,9 +25,11 @@ div {
 }
 .logo {
     display: flex;
+    align-items: center;
     justify-content: flex-start;
-    margin: 10px;
-    width: fixed;
+    margin: 15px;
+    height:max-content;
+    padding-top: 10px;
 
 }
 h1 {
@@ -77,8 +79,7 @@ a {
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 18px;
-    
+   
    
 }
 
